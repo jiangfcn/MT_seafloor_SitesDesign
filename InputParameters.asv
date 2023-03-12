@@ -3,8 +3,8 @@ function [u] = InputParameters
 
 % DEM file and its absolute path, the DEM file should be read by the GMT
 % functions.
-u.DEM = 'A:\InterpretData\DEM\ETOPO1\ETOPO1_Bed.grd';
-% u.DEM = '@earth_relief_30s';
+% u.DEM = 'A:\InterpretData\DEM\ETOPO1\ETOPO1_Bed.grd';
+u.DEM = '@earth_relief_30s';
 
 % A file contains key points which are needed to be plotted on the DEM
 % track profile. Comment the u.KeyPointsFile line if there is no this
@@ -22,9 +22,12 @@ u.KeyPointsFile = 'all_sites.txt';
 
 % Geographical coordinates in two columns to define the profiles. These profiles can form polyline by connecting end-to-end, 
 % 1-longitude and 2-latitude (degree!),
-u.coord = [116.9040175266634,18.7362588152098;...
+u.coord = [140.9445303218392,12.72727761332462;...
+           143.003458874507,10.37698870474865]; 
+       
+       u.coord = [116.9040175266634,18.7362588152098;...
            117.10422776605,12.23011316618205;...
-           117.7663420883424,11.21222204528416];
+           117.7663420883424,11.21222204528416]
 
 % parallel distance between the center line P and the offset line Q, the topographical belt width will be 2*u.L.
 % these two values should be bigger than the resolution of the DEM data.
