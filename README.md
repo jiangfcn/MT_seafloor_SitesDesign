@@ -3,7 +3,7 @@
 
 # Notes:
  * GMT (the Generic Mapping Tools) and Google Earth should be installed before using this package for MT site design.
- * A DEM file that GMT functions can read is needed.
+ * A DEM file that is readable by GMT is needed.
 
 # Guidelines/Workflow
  1. Copy all the scripts into a folder and add it to your MATLAB PATH.
