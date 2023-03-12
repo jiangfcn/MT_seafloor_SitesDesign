@@ -1,4 +1,4 @@
-# seafloor MT site Design
+# seafloor MT profile sites Design
  MATLAB package for plotting a seafloor MT site profile with water depths.
 
 # Notes:
